@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 
-Route::get('/', function () {
-    return view('welcome');
-});
+include 'admin/khqr.php';
+include 'shop/shop.php';
+//Route::get('/', function () {
+//    return view('welcome');
+//});

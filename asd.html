@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>QR Code Demo</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+<div id="qrcode"></div>
+<script>
+    var qrString = "00020101021229240020choeurn_pinchai@aclb52045999530311654064469005802KH5915Choeurn Pinchai6010PHNOM PENH99170013175404409213863045DE6";
+    var qr = new QRCode(document.getElementById("qrcode"), {
+        text: qrString,
+        width: 256,
+        height: 256,
+    });
+</script>
+</body>
+</html>
